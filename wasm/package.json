@@ -1,0 +1,15 @@
+{
+  "name": "wasm-audio",
+  "version": "1.0.0",
+  "description": "wasm-pack new wasm-audio cd wasm-audio",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wasm-pack build --target web && rollup ./main.js --inlineDynamicImports --format iife --file ./pkg/bundle.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
