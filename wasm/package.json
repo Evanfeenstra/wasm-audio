@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "wasm-pack build --target web && rollup ./main.js --inlineDynamicImports --format iife --file ./pkg/bundle.js"
+    "build": "wasm-pack build --target web && rollup ./index.js --inlineDynamicImports --format iife --file ./pkg/bundle.js"
   },
   "author": "",
   "license": "ISC"
